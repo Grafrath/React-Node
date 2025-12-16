@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Welcome from "./componnents/Greeting";
 import Hello from './componnents/Hello';
+import Exam from './componnents/Exam';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -37,8 +38,12 @@ function App() {
       <div>
         <Welcome />
       </div>
+      <div>
+        <Exam />
+      </div>
     </>
   )
 }
 
 export default App
+
